@@ -54,7 +54,7 @@ public class MailSendService {
 		} catch (MessagingException e) {
 			e.printStackTrace();
 		}
-		
+				
 		return authKey;
 	}
 	
